@@ -7,6 +7,7 @@ def generate_random_list(length, min_value, max_value):
         random_list.append(random.randint(min_value, max_value))
     return random_list
 
+
 def calculate_average(numbers):
     """Вычисляет среднее значение списка чисел."""
     if not numbers:
@@ -14,6 +15,7 @@ def calculate_average(numbers):
     total = sum(numbers)
     average = total / len(numbers)
     return average
+
 
 if __name__ == "__main__":
     list_length = 10
