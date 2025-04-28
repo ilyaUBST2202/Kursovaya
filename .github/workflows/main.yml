@@ -47,4 +47,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: kraigy/Kursovaya:latest
+          tags: kraigy/kursovaya:latest
