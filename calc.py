@@ -1,5 +1,6 @@
 import random
 
+
 def generate_random_list(length, min_value, max_value):
     """Генерирует список случайных целых чисел."""
     random_list = []
@@ -27,4 +28,3 @@ if __name__ == "__main__":
 
     average = calculate_average(my_list)
     print("Среднее значение:", average)
-
