@@ -27,3 +27,4 @@ if __name__ == "__main__":
 
     average = calculate_average(my_list)
     print("Среднее значение:", average)
+
